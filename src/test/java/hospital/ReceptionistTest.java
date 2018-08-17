@@ -3,7 +3,7 @@ package hospital;
 import org.junit.Test;
 
 public class ReceptionistTest {
-	Receptionist underTest = new Receptionist("", "", boolean);
+	Receptionist underTest = new Receptionist("", "", false);
 	
 	@Test
 	public void shouldBeAbleToReportIfOnPhone() {
